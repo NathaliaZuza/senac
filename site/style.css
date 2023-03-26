@@ -221,6 +221,100 @@ h1{
 
 /**** Nathy ****/
 
+#inicio > h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: #a6955a;
+    color: #0e1d28;
+}
+
+div#inicio > p {
+    text-align: center;
+    padding: 15px 20px;
+    margin: 15px;
+}
+
+div#inicio-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#inicio-img > figure > img {
+    border-radius: 30px;
+}
+
+div.inicio-fundador {
+    display: flex;
+    justify-content: center;
+    line-height: 1.5em;
+    padding: 15px 20px;
+}
+
+div#inicio-sobre {
+    text-align: justify;
+    padding: 15px 20px;
+    margin: 15px;
+}
+
+div#casa {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    margin: 15px;
+}
+
+div#casa > div > img {
+    border-radius: 50px;
+    max-width: 100%;
+    height: auto;
+    padding: 15px 20px;
+}
+
+div.casa-lista {
+    line-height: 1.8em;
+    padding: 10px 50px;
+    margin: 15px;
+}
+
+div#hermione > h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: #a6955a;
+    color: #0e1d28;
+}
+
+div#hermione > p {
+    text-align: center;
+    padding: 15px 20px;
+    margin: 15px;
+}
+
+div.hermione-bio {
+    display: flex;
+    justify-content: center;
+    line-height: 1.5em;
+    padding: 15px 20px;
+}
+
+div.hermione-bio > div > img {
+    border-radius: 30px;
+    max-width: 100%;
+    height: auto;
+    padding: 15px 20px;
+}
+
+div.hermione-lista {
+    padding: 20px 50px;
+    margin: 15px;
+    line-height: 1.8em;
+}
+
+div.hermione-sobre {
+    text-align: justify;
+    padding: 15px 20px;
+    margin: 15px; 
+}
 
 
 /**** Jéssica ****/
@@ -229,13 +323,13 @@ h1{
 
 /**** Zuza ****/
 
-.container-lufa-lufa{
+/* .container-lufa-lufa{
     border: 1px solid red;
-}
+} */
 
 .container-ul{
     margin: 20px 0;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     max-width: 700px;
 }
 
