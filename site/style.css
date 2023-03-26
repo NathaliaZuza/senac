@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #0e1d28;
+    color: #a6955a;
+    /* background-image: url(https://static3.tcdn.com.br/files/1035637/themes/83/img/background_harry_azul_marinho.jpg?42524db…); */
+}
+
+h1{
+    font-weight: 500;
+}
+
+.body-home{
+    background-image: url(https://static3.tcdn.com.br/files/1035637/themes/83/img/background_harry_azul_marinho.jpg?42524db…);
+}
+
+.body-wrapper{ display: flex; }
+
+.container{
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.casas-ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 1000px) {
+    .casas-ul{ grid-template-columns: 1fr 1fr; }
+}
+
+@media screen and (max-width: 665px) {
+    .casas-ul{ grid-template-columns: 1fr; }
+}
+
+.casas-ul li{
+    list-style: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+}
+.casa-comunal{
+    max-width: 310px;
+    height: 380px;
+    padding: 5px;
+}
+.casa-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+    width: 80vw;
+}
+.line-head{
+    background-color: #a6955a;
+    width: 100%;
+    height: 1.5px;
+}
+.img-head{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    width: 150%;
+    justify-content: center;
+}
+.img-head img{
+    width: 60px;
+    padding: 0 15px 0 0;
+}
+.img-head span{
+    display: block;
+    font-size: 1.4rem;
+    width: 100%;
+}
+
+.grifinoria .casa-img{ background-color: #853225; }
+
+.sonserina .casa-img{ background-color: #334d3e; }
+
+.lufa-lufa .casa-img{ background-color: #d5a736; }
+
+.corvinal .casa-img{ background-color: #465489; }
+
+
+.casa-line{
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    border: 2px solid #a6955a;
+    display: flex;
+    z-index: 0;
+}
+.casa-img:hover{
+    transition:  0.5s ease-in-out ;
+    box-shadow: inset 20px 20px 50px rgba(0, 0, 0, 0.37);
+}
+.img{
+    display: flex;
+    z-index: 2;
+    position: relative;
+    left: -30px;
+    transition: 0.5s ease-in-out;
+}
+.img:hover{
+    transform: scale(1.05);
+}
+.casa-nome{
+    position: absolute;
+    display: flex;
+    bottom: 20px;
+    left: 25px;
+    z-index: 999;
+    width: 100%;
+    color: #a6955a;
+}
+
+.nome-lufa-lufa{
+    position: absolute;
+    display: flex;
+    bottom: 20px;
+    left: 105px;
+    z-index: 999;
+    width: 100%;
+    color: #8d7b3b;
+}
+
+.casa-nome,.nome-lufa-lufa span {
+    text-transform: uppercase;
+    font-size: 2em;
+    display: flex;
+    z-index: 6;
+}
+
+.hogwarts{
+    margin: 20px 0;
+    width: 300px;
+    
+    color: #a6955a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8em;
+    padding: 4px 0;
+    transition: 300ms ease-in-out;
+}
+
+.hogwarts:hover{
+    cursor: pointer;
+    background-color: #a6965a1a;
+}
+
+.hogwarts-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    border: 2px solid #8d7b3b;
+    width: 290px;
+    height: 55px;
+    padding-bottom: 5px;
+}
+
+.hogwarts-line span{
+    display: block;
+    padding: 0 20px;
+}
+
+.btnVoltar{
+    /* background: #a6955a; */
+    text-transform: uppercase;
+    border: 1px solid #8d7b3b;
+    border-radius: 4px;
+    color: #8d7b3b;
+    width: 70px;
+    padding: 10px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 20px;
+    transition: 300ms ease-in-out;
+}
+
+.btnVoltar:hover{
+    background: #a6955a;
+    color: #0e1d28;
+}
+
+h1{
+    padding-left: 20px;
+}
+
+/**** Nathy ****/
+
+
+
+/**** Jéssica ****/
+
+
+
+/**** Zuza ****/
+
+.container-lufa-lufa{
+    border: 1px solid red;
+}
+
+.container-ul{
+    margin: 20px 0;
+    border: 1px solid blue;
+    max-width: 700px;
+}
+
+.h1-newt{
+    text-transform: uppercase;
+}
+
+.container-ul{
+    display: flex;
+    justify-content: space-between ;
+}
+
+.container-ul img{
+    width: 270px;
+    border-radius: 8px;
+}
+
+.container-ul-citacao{
+    font-style: italic;
+    font-weight: 400;
+    font-family: 'Segoe UI', sans-serif;
+    max-width: 400px;
+    margin-left: 20px;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.container-ul-p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', sans-serif;
+    max-width: 400px;
+    margin-left: 20px;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+
+
+/**** Letícia ****/
+
