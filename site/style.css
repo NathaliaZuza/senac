@@ -220,7 +220,6 @@ h1{
 }
 
 /**** Nathy ****/
-
 #inicio > h1 {
     text-align: center;
     padding: 10px;
@@ -316,9 +315,66 @@ div.hermione-sobre {
     margin: 15px; 
 }
 
+footer {
+    padding-top: 30px;
+}
+
+footer > div#eu {
+    display: flex;
+    justify-content: center;
+    padding: 15px 20px;
+}
+
+footer > div > h2 {
+    text-align: center;
+    padding: 15px 20px;
+    background-color: #a6955a;
+    color: #0e1d28
+
+}
+
+footer > div#eu > img {
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
 
 /**** Jéssica ****/
+#inicio > h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: #a6955a;
+    color: #0e1d28;
+}
 
+div#inicio > p {
+    text-align: center;
+    padding: 15px 20px;
+    margin: 15px;
+}
+
+div#inicio-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#inicio-img > figure > img {
+    border-radius: 30px;
+}
+
+div.inicio-fundador {
+    display: flex;
+    justify-content: center;
+    line-height: 1.5em;
+    padding: 15px 20px;
+}
+
+div#inicio-sobre {
+    text-align: justify;
+    padding: 15px 20px;
+    margin: 15px;
+}
 
 
 /**** Zuza ****/
