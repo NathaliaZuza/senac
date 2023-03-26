@@ -129,11 +129,11 @@ h1{
     display: flex;
     z-index: 2;
     position: relative;
-    left: -30px;
+    left: -35px;
     transition: 0.5s ease-in-out;
 }
 .img:hover{
-    transform: scale(1.05);
+    transform: scale(1.08);
 }
 .casa-nome{
     position: absolute;
@@ -382,24 +382,31 @@ div#inicio-sobre {
 /* .container-lufa-lufa{
     border: 1px solid red;
 } */
-
-.container-ul{
+.casa-titulo{
+    font-weight: 400;
+    padding: 10px 0;
     margin: 20px 0;
-    /* border: 1px solid blue; */
-    max-width: 700px;
+    border-top: 1px solid #8d7b3b;
+    border-bottom: 1px solid #8d7b3b;
+    text-align: center;
 }
 
 .h1-newt{
     text-transform: uppercase;
+    padding-left: 20px;
+    font-size: 2rem;
 }
 
 .container-ul{
-    display: flex;
+    /* border: 1px solid red; */
+    display: flex;    
+    max-width: 740px; 
+    margin: 20px 0;
     justify-content: space-between ;
 }
 
 .container-ul img{
-    width: 270px;
+    width: 315px;
     border-radius: 8px;
 }
 
@@ -407,20 +414,23 @@ div#inicio-sobre {
     font-style: italic;
     font-weight: 400;
     font-family: 'Segoe UI', sans-serif;
-    max-width: 400px;
+    max-width: 380px;
     margin-left: 20px;
     font-size: 15px;
+    text-align: justify;
     line-height: 150%;
+    /* border: 1px solid red; */
 }
 
 .container-ul-p{
     margin-top: 20px;
     font-weight: 400;
     font-family: 'Segoe UI', sans-serif;
-    max-width: 400px;
+    max-width: 380px;
     margin-left: 20px;
     font-size: 15px;
     line-height: 150%;
+    text-align: justify;
 }
 
 
