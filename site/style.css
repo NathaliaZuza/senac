@@ -402,6 +402,12 @@ div#casa {
     padding-right: 50px;
   }
 
+.sonserina-casa{
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
 
 /**** Zuza ****/
 
