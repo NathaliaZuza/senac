@@ -340,14 +340,14 @@ footer > div#eu > img {
 
 
 /**** Jéssica ****/
-#inicio > h1 {
+#inicio>h1 {
     text-align: center;
     padding: 10px;
     background-color: #a6955a;
     color: #0e1d28;
 }
 
-div#inicio > p {
+div#inicio>p {
     text-align: center;
     padding: 15px 20px;
     margin: 15px;
@@ -359,7 +359,7 @@ div#inicio-img {
     align-items: center;
 }
 
-div#inicio-img > figure > img {
+div#inicio-img>figure>img {
     border-radius: 30px;
 }
 
@@ -376,6 +376,32 @@ div#inicio-sobre {
     margin: 15px;
 }
 
+div#casa {
+    text-align: center;
+}
+
+.Alva-img {
+    text-align: center;
+    margin-top: 20px;
+}
+.Alva-bio img {
+   width: 20%;
+  }
+  .Alva-img {
+    text-align: center;
+    margin-top: 20px;
+}
+.Alva-bio img {
+    width: 20%;
+  } 
+  .Alva-animal img{
+    margin-top: 20px;
+  } 
+  .Alva-sobre p{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
 
 /**** Zuza ****/
 
@@ -386,27 +412,31 @@ div#inicio-sobre {
     font-weight: 400;
     padding: 10px 0;
     margin: 20px 0;
-    border-top: 1px solid #8d7b3b;
-    border-bottom: 1px solid #8d7b3b;
+    border-top: 1px solid  #dbad38;
+    border-bottom: 1px solid  #dbad38;
     text-align: center;
 }
 
 .h1-newt{
     text-transform: uppercase;
-    padding-left: 20px;
     font-size: 2rem;
+    max-width: 1300px;  
+    margin: 20px auto;
+    color: #dbad38;
+    /* border: 1px solid red; */
 }
 
 .container-ul{
-    /* border: 1px solid red; */
+    /* border: 1px solid rgb(0, 255, 42); */
     display: flex;    
-    max-width: 740px; 
-    margin: 20px 0;
+    max-width: 1300px;  
+    margin: 0px auto;
     justify-content: space-between ;
+    padding-bottom: 20px;
 }
 
 .container-ul img{
-    width: 315px;
+    width: 302px;
     border-radius: 8px;
 }
 
@@ -414,8 +444,7 @@ div#inicio-sobre {
     font-style: italic;
     font-weight: 400;
     font-family: 'Segoe UI', sans-serif;
-    max-width: 380px;
-    margin-left: 20px;
+    width: 380px; 
     font-size: 15px;
     text-align: justify;
     line-height: 150%;
@@ -426,14 +455,64 @@ div#inicio-sobre {
     margin-top: 20px;
     font-weight: 400;
     font-family: 'Segoe UI', sans-serif;
-    max-width: 380px;
-    margin-left: 20px;
+    width: 380px;
     font-size: 15px;
     line-height: 150%;
     text-align: justify;
+    /* border: 1px solid green; */
 }
 
+.col-historia{
+    width: 250px;
+    text-align: justify;
+    font-size: 16.1px;
+    /* border: 1px solid pink; */
+}
 
+.container-baixo{
+    position: absolute;
+    padding: 19px 0 0 0px;
+    width: 710px;
+    text-align: justify;
+}
+
+.p-lista-newt{
+    margin-bottom: 15px;
+}
+.img-animais img{
+    width: 250px;
+    margin-top: 45px;
+}
+.lufa-lufa__img img{
+    margin: 30px 0 0 20px;
+    width: 200px;
+}
+.home-lufa{
+    text-align: justify;
+    margin-right: 30px;
+    padding: 0;
+}
+
+.p-justify{
+    text-align: justify;
+    margin-right: 30px;
+}
+.habilidades-newt li{
+    padding: 10px 0;
+}
+.bold-newt{
+    font-weight: 700;
+    color: #dbad38;
+}
+
+.container-hogwarts{
+    padding: 30px;
+}
+
+.container-hogwarts p{
+    text-transform: uppercase;
+    padding: 20px 0 10px 0;
+}
 
 /**** Letícia ****/
 
