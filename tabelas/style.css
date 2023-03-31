@@ -1,0 +1,77 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+    /* border: 2px solid red; */
+    background: url("./istockphoto-1256204385-612x612.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+p{
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.721);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    /* border: 1px solid #000; */
+}
+table{
+    border: 1px solid #000;
+    border-style: none;
+    border-collapse: collapse;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+td, th{
+    padding: 12px 55px;
+}
+
+tr:nth-child(even){
+    background: #1A1A1A;
+}
+
+tr:nth-child(odd){
+    background: #333333;
+}
+
+td{
+    color: rgb(202, 202, 202);
+    border: 1.5px solid #434343;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+th{
+    font-weight: 600;
+    border: 1.5px solid #E68387;
+}
+
+.color1{
+    background-color: #E68387;
+}
+.color2{
+    background-color: #DB545A;
+}
+.color3{
+    background-color: #D02341;
+}
+
+.compra{
+    font-weight: 700;
+    font-size: 0.6rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 5px 20px 7px 20px;
+}
