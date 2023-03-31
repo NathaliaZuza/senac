@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&display=swap" rel="stylesheet">
+
+    <!-- ÍCONES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Listas HTML</h1>
+        </div>
+        <div class="container-grid">
+            <div class="box-lista">
+                <h2>Questão (a)</h2>
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ol>
+            </div>
+            <div class="box-lista">
+                <h2>Questão (b)</h2>
+                <ol>
+                    <li>Cliente</li>
+                        <ol type="a" class="sublist">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ol>
+                    <li>Servidor</li>
+                        <ol type="a" class="sublist">
+                            <li>PHP</li>
+                            <li>JAVA</li>
+                        </ol>
+                </ol>
+            </div>
+            <div class="box-lista">
+                <h2>Questão (c)</h2>
+                <ol type="I">
+                    <li>Cliente</li>
+                        <ol type="i" class="sublist">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ol>
+                    <li>Servidor</li>
+                        <ol type="i" class="sublist">
+                            <li>PHP</li>
+                            <li>JAVA</li>
+                        </ol>
+                </ol>
+            </div>
+            <div class="box-lista">
+                <h2>Questão (d)</h2>
+                <ol type="I">
+                    <li>Pizzas</li>
+                        <ol type="1" class="sublist">
+                            <li>Calabresa</li>
+                            <li>Portuguesa</li>
+                        </ol>
+                    <li>Sucos</li>
+                        <ol type="1" class="sublist">
+                            <li>Laranja</li>
+                            <li>Uva</li>
+                        </ol>
+                </ol>
+            </div>
+            <div class="box-lista">
+                <h2>Questão (e)</h2>
+                <ul>
+                    <li>Arquivo</li>
+                        <ul class="sublist">
+                            <li>Novo</li>
+                            <li>Abrir</li>
+                            <li>Salvar</li>
+                            <li>Fechar</li>
+                        </ul>
+                    <li>Editar</li>
+                        <ul class="sublist">
+                            <li>Copiar</li>
+                            <li>Recortar</li>
+                            <li>Colar</li>
+
+                            <li>Converter letras para</li>
+                                <ul class="sublist">
+                                    <li>Maiúsculas</li>
+                                    <li>Minúsculas</li>
+                                </ul>
+                        </ul>
+                    <li>Configurações</li>
+                        <ul class="sublist">
+                            <li>Preferências</li>
+                        </ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
