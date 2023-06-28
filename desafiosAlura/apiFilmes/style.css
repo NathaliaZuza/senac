@@ -59,10 +59,11 @@ input[type=checkbox] { margin: 10px; }
 
 .boxFilmes{
     display: flex;
+    width: 90%;
     background-color: #1D1C3B ;
     padding: 30px;
     border-radius: 8px;
-    margin-bottom: 32px;
+    margin: 0 auto 32px auto;
     box-shadow: 8px 9px 16px #00000044;
 }
 
@@ -72,16 +73,17 @@ input[type=checkbox] { margin: 10px; }
     height: 139px;
     width: 139px;
     min-width: 139px;
+    margin: auto 0;
 }
 
 .contentMain__info{ 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 35%;
-    min-width: 250px;
+    min-width: 240px;
     margin-left: 40px;
     max-width: 350px;
+    margin-right: 15px;
 }
 
 .contentInfo{ 
@@ -94,14 +96,16 @@ input[type=checkbox] { margin: 10px; }
 }
 .contentImg img { width: 139px; }
 
-.boxFilmes p { font-weight: 200; }
+.boxFilmes p { font-weight: 200; font-size: 14px; }
 
 .favoritar{
     display: flex;
     justify-content: space-between;
     padding-right: 50px;
-    min-width: 300px;
+    max-width: 220px;
+    min-width: 200px;
     margin-top: 14px;
+    font-size: 12px;
 }
 
 .favoritar .favoritar_estrela{
